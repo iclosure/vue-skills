@@ -38,6 +38,7 @@ export default {
   },
   methods: {
     addSkill () {
+      debugger
       if (this.skill.length == 0) {
         //console.log('Input is empty!')
         return
@@ -94,13 +95,13 @@ p {
 }
  
 .container {
-  box-shadow: 0 0 40px darkgray;
+  box-shadow: 0 0 100px darkgray;
   padding: 0;
   border-radius: 12px;
 }
 
 input {
-  width: calc(100% - 40px);
+  width: 100%;
   border: 0;
   padding: 20px;
   font-size: 1.3em;
