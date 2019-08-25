@@ -26,6 +26,8 @@
 
 <script>
 
+// import { JParser } from 'protonode'
+
 export default {
   name: 'Skills',
   data () {
@@ -39,9 +41,7 @@ export default {
   },
   methods: {
     addSkill () {
-      // debugger
       if (this.skill.length == 0) {
-        //console.log('Input is empty!')
         return
       }
       this.$validator.validateAll().then((result) => {
