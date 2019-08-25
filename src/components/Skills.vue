@@ -25,6 +25,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'Skills',
   data () {
@@ -38,7 +39,7 @@ export default {
   },
   methods: {
     addSkill () {
-      debugger
+      // debugger
       if (this.skill.length == 0) {
         //console.log('Input is empty!')
         return
